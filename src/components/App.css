@@ -1,0 +1,122 @@
+body{
+  /*animation-name: backgroundColor;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  }
+  @keyframes backgroundColor{
+    0%{
+      background: rgba(0,50,100,0.9);
+    }
+    100%{
+      background: rgb(44, 51, 56);
+    }*/
+    background-image: url("ipfs.png");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover
+  }
+  form{
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    margin-top: -100px;
+    margin-left: -250px;
+    width: 500px;
+    height: 200px;
+  }
+  form p{
+    top: 0;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 170px;
+    color: #ffffff;
+    font-family: Arial;
+  }
+  form .fileInput{
+    position: absolute;
+    left: 0px;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    outline: none;
+    cursor: pointer;
+    color: transparent;
+    background: transparent;
+    border: 4px dashed rgba(255,255,255,1);
+    
+  }
+  form .fileInput::-webkit-file-upload-button{
+    opacity: 0;
+  }
+  form .fileInput:hover{
+    border: 4px dashed rgba(255, 255, 255, 0.575);
+  }
+  form .dcinput{
+    background-color: azure;
+  }
+  form button{
+    color: #fff;
+    background: #16a085;
+    border: none;
+    width: 100%;
+    height: 35px;
+    margin-left: -4px;
+    border-radius: 4px;
+    border-bottom: 4px solid #117A60;
+    transition: all .2s ease;
+    outline: none;
+  }
+  form button:hover{
+    background: #149174;
+      color: #0C5645;
+  }
+  form button:active{
+    border:0;
+  }
+  
+  .tb1{
+    border: 2px dashed white;
+  }
+
+  .navbar-custom{
+      background-color: #16a085;
+  }
+
+  li{    
+    list-style: square;
+    color: white;
+  }
+
+  .script{
+    width: 800px;
+    height: 600px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    border:10px solid #fff;
+    font-family:DFKai-sb;
+    font-size: 1cm;
+    margin: 15px;
+    position:absolute;
+    left:0;
+    color: #ffffff;
+  }
+
+  .upload {
+    width: 600px;
+    height: 400px;
+    background-color: rgba(0,0,0,0.5);
+    border-radius: 10px;
+    border:10px solid #fff;
+  }
+
+  .title {
+    left: 50%;
+    color:#ffffff;
+    border-bottom: 10px double rgb(139, 247, 112);
+  }
+
+  

@@ -1,0 +1,36 @@
+require('babel-register');
+require('babel-polyfill');
+require('dotenv').config();
+const HDWalletProvider = require('truffle-hdwallet-provider-privkey');
+const privateKeys = ["f9eb3c623a75753a0d73539bd320e99a003fe5cf1ba9955d044f3f1f0fac7653"]; 
+
+module.exports = {
+  networks: {
+    development: {
+      host: "127.0.0.1",
+      port: 7545,
+      network_id: "*" // Match any network id
+    },
+    ropsten: {
+      provider: function() {
+        return new HDWalletProvider(
+          privateKeys, // Array of account private keys
+          "https://ropsten.infura.io/v3/28636f6e01dc47e4b22541e31339c4f9"// Url to an Ethereum Node
+        )
+      },
+      gas: 5000000,
+      gasPrice: 25000000000,
+      network_id: 3
+    }
+  },
+  contracts_directory: './src/contracts/',
+  contracts_build_directory: './src/abis/',
+  compilers: {
+    solc: {
+      optimizer: {
+        enabled: true,
+        runs: 200
+      }
+    }
+  }
+}
