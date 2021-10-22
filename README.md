@@ -1,4 +1,4 @@
-## ``` Decentralized File Storage. ```
+## ```NTHU Decentralized File Storage. ```
 
 
 ## 🔧 Project Diagram:
