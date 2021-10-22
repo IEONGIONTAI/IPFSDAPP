@@ -2,4 +2,4 @@
 
 
 ## 🔧 Project Diagram:
-![Project Diagram](./image)
+![Project Diagram](/image.png)
