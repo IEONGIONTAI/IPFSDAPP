@@ -36,10 +36,12 @@ class App extends Component {
     // Network ID
     const networkId = await web3.eth.net.getId()
     const networkData = DStorage.networks[networkId]
-    console.log(DStorage.networks)
+
     if(networkData) {
       // Assign contract
+      
       const dstorage = new web3.eth.Contract(DStorage.abi, networkData.address)
+      console.log(DStorage.abi); // 問題: fileCount 錯 不同的user可見大家的file 
       this.setState({ dstorage })
       // Get files amount
       const filesCount = await dstorage.methods.fileCount().call()

@@ -18,8 +18,8 @@ class Main extends Component {
         <h1 class="title" >
             <b /*className="container-fluid mt-5 text-center"*/><font face="serif">IPFS雲端資料庫</font></b>
           </h1>
-        <div className="row">
-          <div className="col">
+        <div class="containerlayout-1">
+          <div class="col">
             <ul class="script">
               <li>此網頁是一個雲端資料庫</li>
               <br></br>
@@ -27,14 +27,13 @@ class Main extends Component {
               <br></br>
               <li>所有上傳的資料將被放在IPFS系統上</li>
               <br></br>
-              <li>您也可以將您上傳的檔案,通過分享HASH值得方法,分享給您的好友們</li>
+              <li>您也可以將您上傳的檔案,通過分享HASH值,跟好友們共享檔案</li>
             </ul>
           </div>
-          <div className="col">
-            <div calss="upload">
+          <div class="col">
+            <div class="upload">
               <main role="main" className="col-lg-12 ml-auto mr-auto" style={{ maxWidth: '1024px' }}>
                 <div className="content">  
-                
                   <p>&nbsp;</p>
                   <div style={{maxWidth: '512px', height : '400px' }}>
                       <form onSubmit={(event) => {
@@ -67,7 +66,7 @@ class Main extends Component {
                   <table className="table-sm tb1 text-monospace" style={{ width: '1000px', maxHeight: '450px'}}>
                     <thead style={{ 'fontSize': '15px' }}>
                       <tr className="bg-dark text-white">
-                        <th scope="col" style={{ width: '10px'}}>id</th>
+                      <th scope="col" style={{ width: '10px'}}>id</th>
                         <th scope="col" style={{ width: '200px'}}>name</th>
                         <th scope="col" style={{ width: '230px'}}>description</th>
                         <th scope="col" style={{ width: '120px'}}>type</th>
@@ -79,7 +78,7 @@ class Main extends Component {
                     </thead>
                     { this.props.files.map((file, key) => {
                       return(
-                        <thead style={{ 'fontSize': '12px' }} key={key}>
+                        <thead style={{ 'fontSize': '12px','color': '#fff' }} key={key}>
                           <tr>
                             <td>{file.fileId}</td>
                             <td>{file.fileName}</td>

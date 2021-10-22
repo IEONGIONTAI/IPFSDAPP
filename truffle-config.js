@@ -2,7 +2,7 @@ require('babel-register');
 require('babel-polyfill');
 require('dotenv').config();
 const HDWalletProvider = require('truffle-hdwallet-provider-privkey');
-const privateKeys = ["f9eb3c623a75753a0d73539bd320e99a003fe5cf1ba9955d044f3f1f0fac7653"]; 
+const privateKeys = ["f4d949d0d06ed1118ab45073ac89ee36e225c32b282bb61897e096cadc169a24"]; 
 
 module.exports = {
   networks: {

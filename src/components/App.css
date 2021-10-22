@@ -1,3 +1,9 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+}
+
 body{
   /*animation-name: backgroundColor;
   animation-duration: 10s;
@@ -17,6 +23,30 @@ body{
     background-position: center;
     background-size: cover
   }
+
+  .container > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 200px;
+    padding: 25px;
+  }
+
+  .layout-1{
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .col{
+    width: 100%;
+    height: 600px;
+  }
+
   form{
     position: absolute;
     top: 30%;
@@ -89,11 +119,13 @@ body{
   li{    
     list-style: square;
     color: white;
+    padding-left: 20px;
+    list-style-position: inside;
   }
 
   .script{
-    width: 800px;
-    height: 600px;
+    width: 1700px;
+    height: 500px;
     background-color: rgba(0,0,0,0.5);
     border-radius: 10px;
     border:10px solid #fff;
@@ -101,7 +133,7 @@ body{
     font-size: 1cm;
     margin: 15px;
     position:absolute;
-    left:0;
+    left: 5px;
     color: #ffffff;
   }
 
@@ -118,5 +150,4 @@ body{
     color:#ffffff;
     border-bottom: 10px double rgb(139, 247, 112);
   }
-
   
