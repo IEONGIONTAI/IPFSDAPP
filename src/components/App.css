@@ -43,8 +43,7 @@ body{
   }
 
   .col{
-    width: 100%;
-    height: 600px;
+    text-align: center;
   }
 
   form{
@@ -76,14 +75,15 @@ body{
     cursor: pointer;
     color: transparent;
     background: transparent;
-    border: 4px dashed rgba(255,255,255,1);
+    border: 4px dashed rgba(255, 255, 255, 0.733);
+    border-radius: 10px;
     
   }
   form .fileInput::-webkit-file-upload-button{
     opacity: 0;
   }
   form .fileInput:hover{
-    border: 4px dashed rgba(255, 255, 255, 0.575);
+    border: 4px dashed rgba(255, 255, 255, 0.349);
   }
   form .dcinput{
     background-color: azure;
@@ -109,7 +109,7 @@ body{
   }
   
   .tb1{
-    border: 2px dashed white;
+
   }
 
   .navbar-custom{
@@ -146,8 +146,29 @@ body{
   }
 
   .title {
-    left: 50%;
+    text-align: center;
+    padding: 30px;
+  }
+
+  .title-txt{
     color:#ffffff;
-    border-bottom: 10px double rgb(139, 247, 112);
+  }
+
+  .bg-dk{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.507);
+  }
+
+  .br10{
+    border-radius: 10px;
+  }
+
+  .paddingLR{
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+
+  .txtFont{
+    font-family: Microsoft JhengHei;
   }
   

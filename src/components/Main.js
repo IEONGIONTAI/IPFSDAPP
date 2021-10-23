@@ -15,24 +15,19 @@ class Main extends Component {
   render() {
     return (
       <div>
-        <h1 class="title" >
-            <b /*className="container-fluid mt-5 text-center"*/><font face="serif">IPFS雲端資料庫</font></b>
-          </h1>
+        <h1 class="title">
+            <b class="title-txt txtFont">IPFS雲端資料庫</b>
+        </h1>
         <div class="containerlayout-1">
           <div class="col">
-            <ul class="script">
-              <li>此網頁是一個雲端資料庫</li>
-              <br></br>
-              <li>您可以在此上傳您的個人檔案</li>
-              <br></br>
-              <li>所有上傳的資料將被放在IPFS系統上</li>
-              <br></br>
-              <li>您也可以將您上傳的檔案,通過分享HASH值,跟好友們共享檔案</li>
+            <ul>
+              <li className="paddingLR txtFont">此網頁是一個雲端資料庫，您可以在此上傳您的個人檔案，所有上傳的資料將被放在IPFS系統上，您也可以將您上傳的檔案，通過分享HASH值跟好友們共享檔案。</li>
             </ul>
           </div>
+
           <div class="col">
-            <div class="upload">
-              <main role="main" className="col-lg-12 ml-auto mr-auto" style={{ maxWidth: '1024px' }}>
+            <div>
+              <main role="main" className="col-lg-12 ml-auto mr-auto bg-dk" style={{ maxWidth: '1024px' }}>
                 <div className="content">  
                   <p>&nbsp;</p>
                   <div style={{maxWidth: '512px', height : '400px' }}>
@@ -63,17 +58,17 @@ class Main extends Component {
                       </form>
                   </div>
                   <p>&nbsp;</p>
-                  <table className="table-sm tb1 text-monospace" style={{ width: '1000px', maxHeight: '450px'}}>
+                  <table className="table-sm tb1 text-monospace" style={{ maxHeight: '450px'}}>
                     <thead style={{ 'fontSize': '15px' }}>
                       <tr className="bg-dark text-white">
-                      <th scope="col" style={{ width: '10px'}}>id</th>
-                        <th scope="col" style={{ width: '200px'}}>name</th>
-                        <th scope="col" style={{ width: '230px'}}>description</th>
-                        <th scope="col" style={{ width: '120px'}}>type</th>
-                        <th scope="col" style={{ width: '90px'}}>size</th>
-                        <th scope="col" style={{ width: '90px'}}>date</th>
-                        <th scope="col" style={{ width: '120px'}}>uploader/view</th>
-                        <th scope="col" style={{ width: '120px'}}>分享給您的好友</th>
+                      <th scope="col" style={{ width: '1%'}}>id</th>
+                        <th scope="col" style={{ width: '20%'}}>name</th>
+                        <th scope="col" style={{ width: '23%'}}>description</th>
+                        <th scope="col" style={{ width: '12%'}}>type</th>
+                        <th scope="col" style={{ width: '9%'}}>size</th>
+                        <th scope="col" style={{ width: '9%'}}>date</th>
+                        <th scope="col" style={{ width: '12%'}}>uploader/view</th>
+                        <th scope="col" style={{ width: '12%'}}>share</th>
                       </tr>
                     </thead>
                     { this.props.files.map((file, key) => {
@@ -111,6 +106,9 @@ class Main extends Component {
                       )
                     })}
                   </table>
+                </div>
+                <div>
+                  <br></br>
                 </div>
               </main>
             </div>
