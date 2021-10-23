@@ -30,7 +30,7 @@ class Main extends Component {
               <main role="main" className="col-lg-12 ml-auto mr-auto bg-dk" style={{ maxWidth: '1024px' }}>
                 <div className="content">  
                   <p>&nbsp;</p>
-                  <div style={{maxWidth: '512px', height : '400px' }}>
+                  <div style={{maxWidth: '512px', height : '450px' }}>
                       <form onSubmit={(event) => {
                         event.preventDefault()
                         const description = this.fileDescription.value
@@ -61,7 +61,7 @@ class Main extends Component {
                   <table className="table-sm tb1 text-monospace" style={{ maxHeight: '450px'}}>
                     <thead style={{ 'fontSize': '15px' }}>
                       <tr className="bg-dark text-white">
-                      <th scope="col" style={{ width: '1%'}}>id</th>
+                        <th scope="col" style={{ width: '1%'}}>id</th>
                         <th scope="col" style={{ width: '20%'}}>name</th>
                         <th scope="col" style={{ width: '23%'}}>description</th>
                         <th scope="col" style={{ width: '12%'}}>type</th>
