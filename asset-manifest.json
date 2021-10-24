@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/IPFSDAPP/static/css/main.835a4eb9.chunk.css",
-    "main.js": "/IPFSDAPP/static/js/main.7259df40.chunk.js",
-    "main.js.map": "/IPFSDAPP/static/js/main.7259df40.chunk.js.map",
+    "main.css": "/IPFSDAPP/static/css/main.b274b9b8.chunk.css",
+    "main.js": "/IPFSDAPP/static/js/main.5e80bf10.chunk.js",
+    "main.js.map": "/IPFSDAPP/static/js/main.5e80bf10.chunk.js.map",
     "runtime-main.js": "/IPFSDAPP/static/js/runtime-main.9bd371f2.js",
     "runtime-main.js.map": "/IPFSDAPP/static/js/runtime-main.9bd371f2.js.map",
     "static/css/2.e1f817c4.chunk.css": "/IPFSDAPP/static/css/2.e1f817c4.chunk.css",
-    "static/js/2.efd66391.chunk.js": "/IPFSDAPP/static/js/2.efd66391.chunk.js",
-    "static/js/2.efd66391.chunk.js.map": "/IPFSDAPP/static/js/2.efd66391.chunk.js.map",
+    "static/js/2.6ec11b7a.chunk.js": "/IPFSDAPP/static/js/2.6ec11b7a.chunk.js",
+    "static/js/2.6ec11b7a.chunk.js.map": "/IPFSDAPP/static/js/2.6ec11b7a.chunk.js.map",
     "index.html": "/IPFSDAPP/index.html",
-    "precache-manifest.a8b7afdbcc0ba85f989ec0c70526d873.js": "/IPFSDAPP/precache-manifest.a8b7afdbcc0ba85f989ec0c70526d873.js",
+    "precache-manifest.25c7143212d32fc3653513f7823b5f63.js": "/IPFSDAPP/precache-manifest.25c7143212d32fc3653513f7823b5f63.js",
     "service-worker.js": "/IPFSDAPP/service-worker.js",
     "static/css/2.e1f817c4.chunk.css.map": "/IPFSDAPP/static/css/2.e1f817c4.chunk.css.map",
-    "static/css/main.835a4eb9.chunk.css.map": "/IPFSDAPP/static/css/main.835a4eb9.chunk.css.map",
-    "static/js/2.efd66391.chunk.js.LICENSE.txt": "/IPFSDAPP/static/js/2.efd66391.chunk.js.LICENSE.txt",
+    "static/css/main.b274b9b8.chunk.css.map": "/IPFSDAPP/static/css/main.b274b9b8.chunk.css.map",
+    "static/js/2.6ec11b7a.chunk.js.LICENSE.txt": "/IPFSDAPP/static/js/2.6ec11b7a.chunk.js.LICENSE.txt",
     "static/media/box.png": "/IPFSDAPP/static/media/box.34892df2.png",
-    "static/media/App.css": "/IPFSDAPP/static/media/ipfs.5f7d620a.png"
+    "static/media/App.css": "/IPFSDAPP/static/media/ipfs.ca5fa739.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9bd371f2.js",
     "static/css/2.e1f817c4.chunk.css",
-    "static/js/2.efd66391.chunk.js",
-    "static/css/main.835a4eb9.chunk.css",
-    "static/js/main.7259df40.chunk.js"
+    "static/js/2.6ec11b7a.chunk.js",
+    "static/css/main.b274b9b8.chunk.css",
+    "static/js/main.5e80bf10.chunk.js"
   ]
 }
